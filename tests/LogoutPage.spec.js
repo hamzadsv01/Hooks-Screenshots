@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../Pages/LoginPage.js';
-import { Logout } from '../Pages/Logout.js';
+import { Logout } from '../Pages/LogoutPage.js';
 
 test('Logout Test', async ({ page }) => {
 
