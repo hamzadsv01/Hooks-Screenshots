@@ -31,7 +31,7 @@ test('Smoke Test - Complete Shopping Flow', async ({ page }) => {
     ).toHaveText('Products');
 
 
-    // 4. Add Product to Cart
+    // 4. Add Product
     const addToCart = new AddToCart(page);
 
     await addToCart.addProduct(
