@@ -1,14 +1,24 @@
-{ 
-"validUsers": [ 
-{ 
-}, 
-{ 
-} 
-] 
-"username": "haristester01", 
-"password": "haristester01", 
-"ExpectedMsg": "Welcome to Adactin Group of Hotels" 
-"username": "RandomGuy9571", 
-"password": "Random9571", 
-"ExpectedMsg": "Welcome to Adactin Group of Hotels" 
+{
+  "validUsers": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    },
+    {
+      "username": "problem_user",
+      "password": "secret_sauce"
+    },
+    {
+      "username": "performance_glitch_user",
+      "password": "secret_sauce"
+    },
+    {
+      "username": "error_user",
+      "password": "secret_sauce"
+    },
+    {
+      "username": "visual_user",
+      "password": "secret_sauce"
+    }
+  ]
 }
