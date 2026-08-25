@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../Pages/LoginPage.js';
 import { AddToCart } from '../Pages/AddToCart.js';
-import { Logout } from '../Pages/LogoutPage.js';
+
 import productsData from '../testdata/productsData.json' with { type: 'json' };
 
 test('Login, Add Products and Logout', async ({ page }) => {

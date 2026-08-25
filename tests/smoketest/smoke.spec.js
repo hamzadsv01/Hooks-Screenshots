@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 import { LoginPage } from '../../Pages/LoginPage.js';
 import { AddToCart } from '../../Pages/AddToCart.js';
 import { Checkout } from '../../Pages/Checkout.js';
-import { LogoutPage } from '../../Pages/LogoutPage.js';
+
 
 import loginData from '../../testdata/loginData.json' with { type: 'json' };
 import productsData from '../../testdata/productsData.json' with { type: 'json' };
@@ -27,7 +27,7 @@ test('Smoke Test - Complete Shopping Flow', async ({ page }) => {
 
     // 3. Verify Products Page
     await expect(
-        page.locator('.title')
+        page.locator(loginPage.ProductLabel)
     ).toHaveText('Products');
 
 
